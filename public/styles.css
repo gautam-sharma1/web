@@ -1,0 +1,29 @@
+#my-title{
+    color:rgb(214, 100, 100);
+    font-size : 30px;
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+
+#my-title:hover{
+    color:rgb(47, 172, 255);
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+  
+  @keyframes slidein {
+    from {
+      margin-left :10%;
+      width: 10%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 0%;
+    }
+  }
+
+#my-footer{
+    padding: 10px;
+}
