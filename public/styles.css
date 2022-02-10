@@ -5,6 +5,9 @@
     animation-name: slidein;
 }
 
+.container-fluid{
+  padding-left: 5%;
+}
 
 #my-title:hover{
     color:rgb(47, 172, 255);
@@ -25,5 +28,16 @@
   }
 
 #my-footer{
-    padding: 10px;
+    padding: 5px;
+}
+
+/* React styles */
+
+.heartClass{
+  
+}
+
+.heartClassRotate{
+  transform:rotate(200deg);
+  background-color: blue;
 }

@@ -1,16 +1,30 @@
-import React from "react";
+import React, {useState}  from "react";
 
 function Footer(){
     const author = "Gautam Sharma";
     const taglineStart = "Built with";
-    const tagLineEnd = "using Javascript, HTML, CSS and React"
+    const tagLineEnd = "using Javascript, HTML, CSS and React";
+
+    let heartAnimation = false;
+    let [heartClassName,setHeartClassName] = useState("");
+
+    function mouseEnter(){
+        heartAnimation = true;
+        setHeartClassName("heartClassRotate");
+
+    }
+    function mouseLeave(){
+        heartAnimation = false;
+        setHeartClassName("heartClass");
+
+    }
+
     const footerValue = 
-    <div>
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div style={{textAlign:"center"}}>
             
-            {taglineStart} {'\u2764\uFE0F'} {'\xa0'}  {tagLineEnd}
+            {taglineStart} <span onMouseOver={mouseEnter} onMouseLeave={mouseLeave} class={heartClassName}>{'\u2764\uFE0F'}</span>{'\xa0'}  {tagLineEnd}
             
             <br />
             <br />
@@ -33,7 +47,7 @@ function Footer(){
             </ul>
         </div>
     </footer>
-    </div>
+
     return footerValue;
 }
 

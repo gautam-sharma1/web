@@ -1,16 +1,22 @@
 import React from "react";
 
 
-function Card(){
+function Card(props){
+
+    let date = props.date;
+    let title = props.title;
+    let summary = props.summary;
+    let img = props.img;
+    let link = props.link;
+
     return <div className="card">
-                    <img src="..." class="card-img-top" alt="..."></img>
+                    <img src={img.path} class="card-img-top" alt={img.alt}></img>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
+                    <a href={link}><h5 class="card-title">{title}</h5></a>
+                        <p class="card-text">{summary}</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">Published on {date}</small>
                     </div>
                 </div>
 
