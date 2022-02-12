@@ -1,21 +1,27 @@
 import React from "react";
 import Card from "./Card";
-import GlobalPosts from "./GlobalPosts";
 import { Array } from "./postsInfo";
 
-function CardGroup(){
+function CardGroup() {
 
-let postsArray = Array;
-let lastThreePosts = postsArray.slice(-3); 
+    let postsArray = Array;
 
-return <div class="card-group">
-{
-    lastThreePosts.map(function(postData){
-        return <Card date={postData.date} title={postData.title} summary={postData.summary} img={postData.img} link={postData.link}/>;
-    })
-}
+    // get last three posts
+    let lastThreePosts = postsArray.slice(-3);
 
-</div>
+    return (<div>
+        <h1>Recent Blogs</h1>
+        <div class="card-group">
+
+            {
+                lastThreePosts.map(function (postData) {
+                    return <Card key={parseInt(postData.id)} date={postData.date} title={postData.title} summary={postData.summary} img={postData.img} link={postData.link} />;
+                })
+            }
+
+        </div>
+    </div>
+    )
 };
 
 
