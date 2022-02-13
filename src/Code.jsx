@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Prism from "prismjs";
-import "prismjs/themes/prism-okaidia.css";
+import "prismjs/themes/prism-tomorrow.css";
 import 'prismjs/components/prism-bash';
 import 'prismjs/components/prism-css';
 import 'prismjs/components/prism-csv';
@@ -16,6 +16,8 @@ import 'prismjs/components/prism-regex';
 import 'prismjs/components/prism-sql';
 import 'prismjs/components/prism-typescript';
 import 'prismjs/components/prism-yaml';
+import 'prismjs/components/prism-c';
+import 'prismjs/components/prism-cpp';
 
 
 export default function Code({ code, language }) {
@@ -23,11 +25,11 @@ export default function Code({ code, language }) {
     Prism.highlightAll();
   }, []);
   return (
-    <div className="Code col-4" >
+    <div className="Code w-75" >
       <pre>
         <code className={`language-${language}`}>{code}</code>
       </pre>
-        
+      <br></br>
     </div>
   );
 }

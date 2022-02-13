@@ -1,13 +1,13 @@
 export var Array = [
     {   "id":"1",
-        "date": "21/1/1996",
-        "title": "hello world",
-        "summary": "i dont knownull",
+        "date": "02/12/2022",
+        "title": "Using auto",
+        "summary": "With C++11 came a new keyword called auto. This has made writing and reading programs so much simpler.",
         "fileLocation": "null",
         "link":"null",
         "img": {
-            "path": "null",
-            "alt": "null"
+            "path": "../resources/post1.jpg",
+            "alt": "Using auto"
         }
     },
     {   "id":"2",

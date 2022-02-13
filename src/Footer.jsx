@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import {siteAuthor } from "./utils";
 
 function Footer() {
-    const author = "Gautam Sharma";
+    const author = siteAuthor;
     const taglineStart = "Built with";
     const tagLineEnd = "using Javascript, HTML, CSS and React";
 
@@ -22,6 +23,7 @@ function Footer() {
     const footerValue =
         <footer>
             <div class="container-fluid">
+                <hr></hr>
                 <div style={{ textAlign: "center" }}>
 
                     {taglineStart} <span onMouseOver={mouseEnter} onMouseLeave={mouseLeave} class={heartClassName}>{' \u2764\uFE0F'}</span>{'\xa0'}  {tagLineEnd}

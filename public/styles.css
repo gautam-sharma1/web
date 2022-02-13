@@ -1,6 +1,6 @@
 #my-title{
-    color:rgb(214, 100, 100);
-    font-size : 30px;
+    color:orangered;
+    font-size : 45px;
     animation-duration: 1s;
     animation-name: slidein;
 }
@@ -37,9 +37,6 @@ footer{
 
 /* React styles */
 
-.heartClass{
-  
-}
 
 .heartClassRotate{
   transform:rotate(200deg);
@@ -53,4 +50,12 @@ footer{
 
 .heartNormal{
   /* font-size: 15px; */
+}
+
+h1{
+  color:orangered
+}
+
+h3{
+  color:#f15e59;
 }

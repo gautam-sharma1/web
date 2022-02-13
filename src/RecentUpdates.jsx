@@ -1,40 +1,42 @@
 import React from "react";
 import CardGroup from "./CardGroup";
-function RecentUpdates(){
-    return(
+function RecentUpdates() {
+    return (
         <div class="container-fluid">
-        <h1>Recent Updates</h1>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-        sunt in culpa qui officia deserunt mollit anim id est laborum."
+            <h1>Recent Updates</h1>
+            <p>
+                <ul>
+                    <li><strong>February 2022:</strong> Joined the Sensor Simulation team @ MathWorks</li>
+                    <li><strong>June 2021:</strong> Started working in the Engineering Development Group @ MathWorks</li>
+                    <ul>
+                        <li>Continued developing sensor simulation framework features in C++</li>
 
-        Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
-inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
-sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, 
-adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum 
-exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
-esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                        <li>Developed end to end computer vision software for parking lane line detection</li>
+                    </ul>
+                    <li><strong>May 2021:</strong> Graduated with a Masters is <mark>Robotics and Autonomous Systems with a specialization in Artificial Intelligence</mark> from Arizona State Univeristy</li>
+                    <li><strong>February 2021:</strong> Attending Treehacks @ Stanford</li>
+                    <li><strong>January 2021:</strong> Intern @ Mathworks for the Spring'21 semester</li>
+                    <ul>
+                        <li>Developed sensor simulation framework features in C++</li>
+                    </ul>
+                    <li><strong>August 2020:</strong> Received the prestigious Engineering Graduate Fellowship from ASU for excellence in academics</li>
+                    <li><strong>May 2020 - August 2020:</strong> Currently I am interning @ Mathworks in the domain of reinforcement learning</li>
+                    <li><strong>December 2019:</strong> My research proposal on control of autonomous fleet of drones for search and rescue operations got accepted to get the ASU MORE funding for the spring 2020 semester</li>
 
-1914 translation by H. Rackham
-"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+                </ul>
 
-Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-        
-        
-        </p>
-        <br>
+            </p>
+            <br>
 
-        </br>
-        The following is my fav quote <br></br>
-        <blockquote class="blockquote">
-        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-        </blockquote>
-        <br></br>
-        <CardGroup/>
+            </br>
+            <hr />
+            <h5>The following is my favorite quote: </h5>
+            <blockquote class="blockquote">
+                <p class="mb-0">The reasonable man adapts himself to the world. The unreasonable one persits in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man</p>
+            </blockquote>
+            <hr />
+            <br></br>
+            <CardGroup />
         </div>
     )
 
