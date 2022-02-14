@@ -30,7 +30,8 @@ function Navbar() {
                         <a class="nav-link" href="#">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Download Resume</a>
+                    <Link to="/calender"><a class="nav-link">Book time with me</a></Link>
+                        
                     </li>
                 </ul>
             </div>

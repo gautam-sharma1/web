@@ -5,6 +5,7 @@ import Post from './Post';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AboutMe from './AboutMe';
 import RecentUpdates from './RecentUpdates';
+import Calender from './Calender';
 import Post1 from './Post1';
 import Post2 from './Post2';
 
@@ -32,6 +33,8 @@ function App() {
                         <Route exact path="/posts/1" element={<Post1 />} >
                         </Route>
                         <Route exact path="/posts/2" element={<Post2 />} >
+                        </Route>
+                        <Route exact path="/calender" element={<Calender />} >
                         </Route>
 
                     </Routes>
