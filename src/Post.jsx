@@ -11,11 +11,11 @@ import PostListItem from "./PostListItem";
 
 function Post() {
     let posts = Array;
-    return (<div class="container-fluid">
+    return (<div className="container-fluid">
 
         <h1>Welcome to my posts page</h1>
         <br></br>
-        <ul class="list-group list-group-flush">
+        <ul className="list-group list-group-flush">
             {
 
                 posts.map(function (postData, idx) {

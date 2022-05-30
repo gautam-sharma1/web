@@ -11,7 +11,7 @@ function CardGroup() {
 
     return (<div>
         <h1>Recent Blogs</h1>
-        <div class="card-group">
+        <div className="card-group">
 
             {
                 lastThreePosts.map(function (postData) {

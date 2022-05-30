@@ -8,16 +8,16 @@ function Card(props) {
     let summary = props.summary;
     let img = props.img;
     let link = props.link;
-    console.log(img.path)
+
     return <div className="card">
         
-        <img src={img.path} class="card-img-top" alt={img.alt}></img>
-        <div class="card-body">
-            <a href={link}><h5 class="card-title">{title}</h5></a>
-            <p class="card-text">{summary}</p>
+        <img src={img.path} className="card-img-top" alt={img.alt}></img>
+        <div className="card-body">
+            <a href={link}><h5 className="card-title">{title}</h5></a>
+            <p className="card-text">{summary}</p>
         </div>
-        <div class="card-footer">
-            <small class="text-muted">Published on {date}</small>
+        <div className="card-footer">
+            <small className="text-muted">Published on {date}</small>
         </div>
     </div>
 

@@ -22,28 +22,28 @@ function Footer() {
 
     const footerValue =
         <footer>
-            <div class="container-fluid">
+            <div className="container-fluid">
                 <hr></hr>
                 <div style={{ textAlign: "center" }}>
 
-                    {taglineStart} <span onMouseOver={mouseEnter} onMouseLeave={mouseLeave} class={heartClassName}>{' \u2764\uFE0F'}</span>{'\xa0'}  {tagLineEnd}
+                    {taglineStart} <span onMouseOver={mouseEnter} onMouseLeave={mouseLeave} className={heartClassName}>{' \u2764\uFE0F'}</span>{'\xa0'}  {tagLineEnd}
                     <br />
                     <br />
                     {author} {'\u00A9'} {new Date().getFullYear()}
 
                 </div>
-                <ul class="nav justify-content-center" id="my-footer">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Github</a>
+                <ul className="nav justify-content-center" id="my-footer">
+                    <li className="nav-item">
+                        <a className="nav-link active" aria-current="page" href="#">Github</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">LinkedIn</a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">LinkedIn</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Email</a>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">Email</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Subscribe</a>
+                    <li className="nav-item">
+                        <a className="nav-link disabled">Subscribe</a>
                     </li>
                 </ul>
             </div>

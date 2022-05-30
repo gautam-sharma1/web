@@ -71,7 +71,7 @@ function Post1() {
         <Code code={code1} language="cpp" />
         Now we can do something like this:
         <Code code={code2} language="cpp" />
-        Well you'll say that's basic stuff. What's the big deal? Well it's kind of a big deal. Let's say you are working with non primitive data types like std::vector. To get the iterator to the vector you needed to do something like:
+        Well you'll say that's basic stuff. What's the big deal? Well it's kind of a big deal. Let's say you are working with non primitive data types like <code>{`std::vector`}</code>. To get the iterator to the vector you needed to do something like:
         <Code code={code3} language="cpp" />
         Well that does not seem that bad. Let's see the next example. Here we are using <code>{`std::map vector<vector<int>>`}</code> and <code>
             {`std::vector<int>::iterator it`}
@@ -93,7 +93,7 @@ function Post1() {
         <h3>Few caveats</h3>
         Be very careful while working with references. auto in general is not able to deduce referenced return type.
         <Code code={code9} language="cpp" />
-        In the above program the data type of y is int and not &int as expected. The compiler is not able to deduce the return type as &int. This issue is easily solved by using &auto instead of auto.
+        In the above program the data type of y is int and not <code>{`&int`}</code> as expected. The compiler is not able to deduce the return type as <code>{`&int`}</code> . This issue is easily solved by using <code>{`&auto`}</code> instead of auto.
         <Code code={code10} language="cpp" />
         For a more expansive overview visit <Link to="https://en.cppreference.com/w/cpp/language/auto">auto</Link>. Another great post by <Link to="https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/">Herb Setter</Link>
         <br></br>
@@ -101,11 +101,6 @@ function Post1() {
         <br></br>
         -G
     </div>
-
-
-
-
-
 
 
 

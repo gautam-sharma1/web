@@ -28,7 +28,7 @@ function Post2(){
     </div>
 
     return(
-        <div class="container-fluid" style={{paddingLeft:"5%"}}>
+        <div className="container-fluid" style={{paddingLeft:"5%"}}>
         <PostTemplate title={title} content={content} date={date}/>
         </div>
     )

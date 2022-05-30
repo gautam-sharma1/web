@@ -8,6 +8,8 @@ import RecentUpdates from './RecentUpdates';
 import Calender from './Calender';
 import Post1 from './Post1';
 import Post2 from './Post2';
+import YT from './Youtube';
+import YoutubeList from './YoutubeList';
 
 function App() {
 

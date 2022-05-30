@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Prism from "prismjs";
-import "prismjs/themes/prism-tomorrow.css";
+import "prismjs/themes/prism.css";
 import 'prismjs/components/prism-bash';
 import 'prismjs/components/prism-css';
 import 'prismjs/components/prism-csv';
@@ -20,12 +20,13 @@ import 'prismjs/components/prism-c';
 import 'prismjs/components/prism-cpp';
 
 
+
 export default function Code({ code, language }) {
   useEffect(() => {
     Prism.highlightAll();
   }, []);
   return (
-    <div className="Code w-75" >
+    <div className="Code w-70" >
       <pre>
         <code className={`language-${language}`}>{code}</code>
       </pre>

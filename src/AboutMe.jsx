@@ -5,7 +5,7 @@ import Code from "./Code";
 function AboutMe() {
 
   return (
-    <div class="container-fluid">
+    <div className="container-fluid">
       <h1>About Me</h1>
       <p >
         I am a passionate  software engineer. I grew up in India playing soccer and even today I don't miss any opportunity for a quick game.
@@ -16,7 +16,9 @@ function AboutMe() {
         Previously I worked with MathWorks, Cranfield University and I graduated from Arizona State University in May' 21, where I have been part of exciting research projects and courses.
         <br></br>
         Most of my technical work is on <Link to="https://github.com/gautam-sharma1">GitHub</Link>
+        <br></br> 
         <hr />
+        
 
       </p>
     </div>
