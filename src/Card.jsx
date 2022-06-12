@@ -9,6 +9,7 @@ function Card(props) {
     let img = props.img;
     let link = props.link;
 
+
     return <div className="card">
         
         <img src={img.path} className="card-img-top" alt={img.alt}></img>

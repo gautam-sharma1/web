@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import { Array } from "./postsInfo";
 
+
 function CardGroup() {
 
     let postsArray = Array;

@@ -11,14 +11,14 @@ export var Array = [
         }
     },
     {   "id":"2",
-        "date": "21/1/1999",
-        "title": "hello world",
-        "summary": "i dont knownull",
+        "date": "06/12/2022",
+        "title": "No, doing that online course won\’t make you an expert!",
+        "summary": "I am not advising against online education. I support it fully but my point is that doing that it will only give you a direction",
         "fileLocation": "null",
         "link":"/posts/2",
         "img": {
-            "path": "null",
-            "alt": "null"
+            "path": "../resources/posts2/post2:1.jpg",
+            "alt": "Doing that online course won\’t make you an expert!"
         }
     },
     {   "id":"3",

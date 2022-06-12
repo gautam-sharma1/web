@@ -59,3 +59,14 @@ h1{
 h3{
   color:#f15e59;
 }
+
+.code{
+    display: inline-flexbox;
+    max-width: fit-content;
+}
+
+/* to capitalize the starting letter of the paragraph */
+.capital{
+  font-size: xx-large;
+  font-weight: 600;
+}

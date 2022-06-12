@@ -48,7 +48,7 @@ function RecentUpdates() {
             <hr />
             <br></br>
             <CardGroup />
-                   
+                   <br />
             <YoutubeList/>
         </div>
     )
