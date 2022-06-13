@@ -5,8 +5,6 @@ import PostTemplate from "./PostTemplate";
 
 function Post2() {
 
-
-
     let title = "No, doing that online course won\’t make you an expert!";
     let date = "06/12/22";
     let content =
@@ -20,7 +18,7 @@ function Post2() {
             </p>
             <br />
             <br />
-            <img src="../resources/posts2/post2:1.jpg"></img>
+            <img className = "container-fluid" style={{maxWidth: "1080px", alignContent:"center"}} src="../resources/posts2/post2:1.jpg"></img>
             <br/>
             <br/>
             <hr />
@@ -29,7 +27,7 @@ function Post2() {
             discipline and dedication to complete the given course. But I would also like to remind him/her that this is not the end of the journey instead it is the beginning. Doing that course won’t make you even close to an expert. It will just nudge you in a direction where you would have an idea of the topic comprising the field. I can bet that most of the students complete a course, get a certificate and then just forget about it. Sometimes it seems that it’s all about getting the sparkling certificate of achievement. Imagine a scenario where all the MOOC’s decide not to hand over any certificates. I won’t be surprised if the number of students enrolled gets plummeted.
             <br />
             <br />
-            <img src="../resources/posts2/post2:2.jpg"></img>
+            <img className = "container-fluid" style={{maxWidth: "1080px", alignContent:"center"}} src="../resources/posts2/post2:2.jpg"></img>
             <br/>
             <br/>
             Don’t get me wrong, I am not advising against online education. I support it fully but my point is that doing that it will only give you a direction, not make you an expert. 

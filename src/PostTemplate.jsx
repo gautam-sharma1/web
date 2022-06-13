@@ -8,7 +8,9 @@ function PostTemplate({ title, content, date }) {
             <h1>{title}</h1>
             <br>
             </br>
+            <div className="blog">
             {content}
+            </div>          
             <br>
 
             </br>
