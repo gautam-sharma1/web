@@ -1,28 +1,34 @@
 
 import YT from "./Youtube";
+import Carousel from 'react-bootstrap/Carousel'
 
-
-const videoIDS = ["WgyyyD6KAi4","Osx4fjPPyHw","ZUTE17gsOvc"]
+const videoIDS = ["WgyyyD6KAi4","Osx4fjPPyHw","ZUTE17gsOvc","dSs3VwbGUkY"]
 
 
 function YoutubeList(){
 
 return(
-    <div  id="youtube">
+    <div id="youtube">
     <hr />
         <h1>Youtube Videos</h1>
         <br />
-        <div className="card-group">
+        <Carousel variant="dark">
         {
                 videoIDS.map(function (videoID) {
-                    return (                        
-                    <YT videoID={videoID} />
+                    return (      
+                        <Carousel.Item>
+                        <YT videoID={videoID} />
+                        <Carousel.Caption>
+
+                        </Carousel.Caption>
+                        </Carousel.Item>                 
+                    
                     )
                 })
-               } 
+        } 
+</Carousel>
         </div>
-        
-    </div>
+
 )
 
 }

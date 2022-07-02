@@ -40,10 +40,9 @@ function App() {
                         </Route>
 
                     </Routes>
-                </div>,
+                </div>
 
                 <div id="footer">
-
                     <Footer />
                 </div>
             </div>

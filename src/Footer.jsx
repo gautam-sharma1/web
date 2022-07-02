@@ -21,7 +21,7 @@ function Footer() {
     }
 
     const footerValue =
-        <footer>
+        <footer  style={{marginTop:"5%"}}>
             <div className="container-fluid">
                 <hr></hr>
                 <div style={{ textAlign: "center" }}>
@@ -34,13 +34,13 @@ function Footer() {
                 </div>
                 <ul className="nav justify-content-center" id="my-footer">
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#">Github</a>
+                        <a className="nav-link active" aria-current="page" href="https://github.com/gautam-sharma1">Github</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">LinkedIn</a>
+                        <a className="nav-link" href="https://www.linkedin.com/in/gautamsharm/">LinkedIn</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Email</a>
+                        <a className="nav-link" href="mailto:gautamsharma2813@gmail.com">Email</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link disabled">Subscribe</a>

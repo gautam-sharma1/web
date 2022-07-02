@@ -1,19 +1,17 @@
 // js
 import React from 'react';
 import YouTube from 'react-youtube';
-
 class YT extends React.Component {
   render() {
     const opts = {
-      height: '300',
-      width: '300',
+      height: '500',
+      width: '700',
       playerVars: {
         // https://developers.google.com/youtube/player_parameters
         autoplay: 0,
       },
     };
-
-    return <YouTube className={"card"} style={{width: '18rem'}} videoId={this.props.videoID} opts={opts} onReady={this._onReady} />;
+    return <YouTube style={{width: '30rem', paddingLeft: '32%', paddingBottom:'0%'}} videoId={this.props.videoID} opts={opts} onReady={this._onReady} />
   }
 
   _onReady(event) {
