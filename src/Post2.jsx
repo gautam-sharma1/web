@@ -8,7 +8,7 @@ function Post2() {
     let title = "No, doing that online course won\’t make you an expert!";
     let date = "06/12/22";
     let content =
-        (<div>
+        (<div id="typed-font">
 
             <p className="lead">
             <span className="capital">S</span>ince the onset of the unfortunate COVID pandemic, my Linkedin has been full of posts related to students, professionals and people from all walks of life completing online courses expeditiously.

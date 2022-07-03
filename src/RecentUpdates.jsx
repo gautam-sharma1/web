@@ -6,7 +6,7 @@ function RecentUpdates() {
         <div className="container-fluid">
             <h1>Recent Updates</h1>
             <br/>
-            <p>
+            <p id= "typed-font" >
                 <ul>
                     <li><strong>February 2022:</strong> Joined the Sensor Simulation team @ MathWorks</li>
                     <br />

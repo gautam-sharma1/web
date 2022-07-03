@@ -63,7 +63,7 @@ function Post1() {
              cout<<y<<endl; // gives 6
         }`)
 
-    let content = <div>
+    let content = <div id="typed-font">
         With C++11 came a new keyword called auto. This has made writing and reading programs so much simpler. For example previously we used to do something like this:
         <br>
 
@@ -77,7 +77,7 @@ function Post1() {
             {`std::vector<int>::iterator it`}
         </code>.
         <Code code={code4} language="cpp" />
-        Using auto it simplifies to:
+        Using <code>auto</code> it simplifies to:
         <Code code={code5} language="cpp" />
         <br></br>
         <h3>Using lambdas</h3>
@@ -87,7 +87,7 @@ function Post1() {
         <Code code={code7} language="cpp" />
         <br></br>
         <h3>Best use of auto</h3>
-        In my opinion the best use of auto is in initializing variables. It makes sure that every variable gets initialized.
+        In my opinion the best use of <code>auto</code> is in initializing variables. It makes sure that every variable gets initialized.
         <Code code={code8} language="cpp" />
         <br></br>
         <h3>Few caveats</h3>
@@ -95,7 +95,7 @@ function Post1() {
         <Code code={code9} language="cpp" />
         In the above program the data type of y is int and not <code>{`&int`}</code> as expected. The compiler is not able to deduce the return type as <code>{`&int`}</code> . This issue is easily solved by using <code>{`&auto`}</code> instead of auto.
         <Code code={code10} language="cpp" />
-        For a more expansive overview visit <Link to="https://en.cppreference.com/w/cpp/language/auto">auto</Link>. Another great post by <Link to="https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/">Herb Setter</Link>
+        For a more expansive overview visit <a href="https://en.cppreference.com/w/cpp/language/auto">auto</a>. Another great post by <a href="https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/">Herb Setter</a>
         <br></br>
         Signing out
         <br></br>

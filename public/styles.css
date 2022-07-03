@@ -7,6 +7,9 @@
 
 .container-fluid{
   padding-left: 5%;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  
 }
 
 #my-title:hover{
@@ -73,4 +76,9 @@ h3{
 
 .blog{
   font-family: 'Roboto', sans-serif;
+}
+
+#typed-font{
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
 }

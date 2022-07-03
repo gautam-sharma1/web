@@ -11,7 +11,7 @@ class YT extends React.Component {
         autoplay: 0,
       },
     };
-    return <YouTube style={{width: '30rem', paddingLeft: '32%', paddingBottom:'0%'}} videoId={this.props.videoID} opts={opts} onReady={this._onReady} />
+    return <YouTube style={{width: '30rem', paddingLeft: '10%', paddingBottom:'0%'}} videoId={this.props.videoID} opts={opts} onReady={this._onReady} />
   }
 
   _onReady(event) {
