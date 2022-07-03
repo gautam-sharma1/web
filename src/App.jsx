@@ -8,6 +8,7 @@ import RecentUpdates from './RecentUpdates';
 import Calender from './Calender';
 import Post1 from './Post1';
 import Post2 from './Post2';
+import Post3 from './Post3';
 import YT from './Youtube';
 import YoutubeList from './YoutubeList';
 
@@ -35,6 +36,8 @@ function App() {
                         <Route exact path="/posts/1" element={<Post1 />} >
                         </Route>
                         <Route exact path="/posts/2" element={<Post2 />} >
+                        </Route>
+                        <Route exact path="/posts/3" element={<Post3 />} >
                         </Route>
                         <Route exact path="/calender" element={<Calender />} >
                         </Route>

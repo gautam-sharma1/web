@@ -1,7 +1,7 @@
 import React from "react";
 import PostTemplate from "./PostTemplate";
 import Code from "./Code";
-import { Link } from "react-router-dom";
+
 var dedent = require('dedent-js');
 
 function Post1() {

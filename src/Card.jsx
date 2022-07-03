@@ -12,7 +12,7 @@ function Card(props) {
 
     return <div className="card">
         
-        <img src={img.path} className="card-img-top" alt={img.alt}></img>
+        <img src={img.path} style={{height: "400px"}} className="card-img-top" alt={img.alt}></img>
         <div className="card-body">
             <a href={link}><h5 className="card-title">{title}</h5></a>
             <p className="card-text">{summary}</p>

@@ -18,7 +18,7 @@ function RecentUpdates() {
                         <li>Developed end to end computer vision software for parking lane line detection</li>
                     </ul>
                     <br />
-                    <li><strong>May 2021:</strong> Graduated with a Masters is <mark>Robotics and Autonomous Systems with a specialization in Artificial Intelligence</mark> from Arizona State Univeristy</li>
+                    <li><strong>May 2021:</strong> Graduated with a Masters is Robotics and Autonomous Systems with a specialization in Artificial Intelligence from Arizona State Univeristy</li>
                     <br />
                     <li><strong>February 2021:</strong> Attending Treehacks @ Stanford</li>
                     <br />

@@ -20,7 +20,7 @@ function Post() {
 
                 posts.map(function (postData, idx) {
                     return (
-                        <PostListItem key={postData.id} id={postData.id} title={postData.title} date={postData.date} summary={postData.summary} />
+                        <PostListItem key={postData.id} id={postData.id} title={postData.title} date={postData.date} summary={postData.summary} tags={postData.tags}/>
                         
                     )
 

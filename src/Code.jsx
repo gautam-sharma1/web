@@ -30,7 +30,6 @@ export default function Code({ code, language }) {
       <pre>
         <code className={`language-${language}`}>{code}</code>
       </pre>
-      <br></br>
     </div>
   );
 }
