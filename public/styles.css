@@ -1,84 +1,87 @@
-#my-title{
-    color:orangered;
-    font-size : 45px;
-    animation-duration: 1s;
-    animation-name: slidein;
+/* affects "Gautam Sharma" in Navbar.jsx */
+#my-title.h1 {
+  color: orangered;
+  font-size: 55px;
+  animation-duration: 1s;
+  animation-name: slidein;
 }
 
-.container-fluid{
+.container-fluid {
   padding-left: 5%;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   font-weight: 400;
-  
 }
 
-#my-title:hover{
-    color:rgb(47, 172, 255);
-    animation-duration: 1s;
-    animation-name: slidein;
+#my-title:hover {
+  color: rgb(47, 172, 255);
+  animation-duration: 1s;
+  animation-name: slidein;
 }
-  
-  @keyframes slidein {
-    from {
-      margin-left :10%;
-      width: 10%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 0%;
-    }
+
+@keyframes slidein {
+  from {
+    margin-left: 10%;
+    width: 10%;
   }
 
-#my-footer{
-    padding: 5px;
+  to {
+    margin-left: 0%;
+    width: 0%;
+  }
 }
 
-footer{
+#my-footer {
+  padding: 5px;
+}
+
+footer {
   margin-top: 35%;
 }
 
 /* React styles */
 
-
-.heartClassRotate{
-  transform:rotate(200deg);
+.heartClassRotate {
+  transform: rotate(200deg);
   padding-right: 1%;
   /* background-color: blue; */
 }
 
-.heartEnlarge{
+.heartEnlarge {
   font-size: 15px;
 }
 
-.heartNormal{
+.heartNormal {
   /* font-size: 15px; */
 }
 
-h1{
-  color:orangered
+h1 {
+  color: orangered;
 }
 
-h3{
-  color:#f15e59;
+h3 {
+  color: #f15e59;
 }
 
-.code{
-    display: inline-flexbox;
-    max-width: fit-content;
+.code {
+  display: inline-flexbox;
+  max-width: fit-content;
 }
 
 /* to capitalize the starting letter of the paragraph */
-.capital{
+.capital {
   font-size: xx-large;
   font-weight: 600;
 }
 
-.blog{
-  font-family: 'Roboto', sans-serif;
+.blog {
+  font-family: "Roboto", sans-serif;
 }
 
-#typed-font{
-  font-family: 'Inconsolata', monospace;
+#typed-font {
+  font-family: "Inconsolata", monospace;
   font-weight: 400;
+}
+
+#root {
+  font-size: 22px;
 }
